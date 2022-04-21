@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url(../img/emir-saldierna-oHWCOXSYdsg-unsplash.jpg) center/ cover no-repeat;
+
+}
+
+
+
+header nav {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav h2 {
+    margin-left: 65px;
+    font-size: 30px;
+}
+
+header nav ul {
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-right: 5%;
+}
+
+header nav ul li {
+    padding-right: 40px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
